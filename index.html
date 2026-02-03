@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivam Dalmia | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Animated Background -->
+    <canvas id="particle-canvas"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <span class="brand-bracket">&lt;</span>
+            <span class="brand-name">Shivam</span>
+            <span class="brand-bracket">/&gt;</span>
+        </div>
+        <button class="nav-toggle" aria-label="Toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="hero-greeting">Hello, I'm</p>
+            <h1 class="hero-name glitch" data-text="Shivam Dalmia">Shivam Dalmia</h1>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">01.</span>
+                About Me
+            </h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Hello and welcome to my portfolio! I'm <span class="highlight">Shivam Dalmia</span>, a Computer Science and Statistics graduate from <span class="highlight">Rice University</span> with a passion for building technology that solves real-world problems.
+                    </p>
+                    <p>
+                        My journey began at South City International School in Kolkata, where serving as School Captain and varsity team captain helped shape me into a confident leader and collaborative teammate. In 2021, I took the leap to Rice to pursue Computer Science, where I grew not just academically through rigorous coursework, research, and hands-on projects, but also socially, learning how to lead diverse teams, communicate ideas clearly, and thrive in fast-paced environments.
+                    </p>
+                    <p>
+                        Through internships and research, I've developed strong skills in software engineering, data-driven problem solving, and cross-functional collaboration, working closely with designers, engineers, and stakeholders to turn ideas into impactful products. Beyond tech, you'll usually find me on the golf course or tennis court, playing guitar, traveling to new places, or spending time with friends—experiences that keep me grounded, creative, and energized.
+                    </p>
+                    <p>
+                        For more information, check out my <a href="https://drive.google.com/file/d/1rWDUm5As-6vAojVGzNuYP6g5DXebFJQJ/view?usp=sharing" target="_blank" class="highlight resume-link">resume</a>!
+                    </p>
+                    <div class="skills-container">
+                        <h3 class="skills-title">Technologies I work with:</h3>
+                        <ul class="skills-list">
+                            <!-- Skills are loaded from config.js -->
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-images">
+                    <div class="image-wrapper">
+                        <div class="image-border"></div>
+                        <img src="photos/Aboutme.jpeg" alt="Shivam Dalmia" class="profile-image">
+                    </div>
+                    <div class="image-wrapper">
+                        <div class="image-border"></div>
+                        <img src="photos/aboutme2.jpg" alt="Shivam Dalmia" class="profile-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">02.</span>
+                Featured Projects
+            </h2>
+            <div class="projects-grid">
+                <!-- Projects are loaded from config.js -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-number">03.</span>
+                Get In Touch
+            </h2>
+            <div class="contact-content">
+                <p class="contact-description">
+                    Thank you for visiting my portfolio! I'd love to hear from you — whether it's a question, collaboration, or just to say hello.
+                </p>
+                <div class="contact-methods">
+                    <a href="mailto:shivamdalmia19@gmail.com" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <p>shivamdalmia19@gmail.com</p>
+                    </a>
+                    <a href="https://www.linkedin.com/in/shivam-dalmia-03176b225/" target="_blank" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                        <h3>LinkedIn</h3>
+                        <p>Connect with me</p>
+                    </a>
+                    <a href="https://github.com/shivam-dalmia" target="_blank" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h3>GitHub</h3>
+                        <p>Check out my code</p>
+                    </a>
+                </div>
+                <a href="mailto:shivamdalmia19@gmail.com" class="btn btn-primary btn-large">
+                    <span>Say Hello</span>
+                    <i class="fas fa-paper-plane"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>Designed & Built by <span class="highlight">Shivam Dalmia</span></p>
+            <p class="footer-year"></p>
+        </div>
+    </footer>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
