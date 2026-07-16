@@ -279,7 +279,7 @@ function loadContent() {
     }
 
     // Add reveal class to sections for animation
-    document.querySelectorAll('.about-content, .section-title, .contact-content').forEach(el => {
+    document.querySelectorAll('.about-content, .section-title, .contact-content, .research-content').forEach(el => {
         el.classList.add('reveal');
     });
 

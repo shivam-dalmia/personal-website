@@ -750,6 +750,53 @@ img {
 }
 
 /* ========================================
+   Research Section
+   ======================================== */
+.research {
+    padding: var(--section-padding);
+    background: linear-gradient(180deg, transparent, rgba(26, 26, 46, 0.3), transparent);
+}
+
+.research-description {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+    max-width: 700px;
+}
+
+.poster-viewer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.poster-frame {
+    width: 100%;
+    height: 85vh;
+    min-height: 600px;
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    background: var(--bg-secondary);
+    box-shadow: var(--shadow-card);
+}
+
+.poster-download {
+    align-self: flex-end;
+}
+
+@media (max-width: 768px) {
+    .poster-frame {
+        height: 70vh;
+        min-height: 400px;
+    }
+
+    .poster-download {
+        align-self: center;
+    }
+}
+
+/* ========================================
    Contact Section
    ======================================== */
 .contact {
